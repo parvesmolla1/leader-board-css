@@ -1,0 +1,67 @@
+/* font poppins */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+/* top player styles start */
+.players{
+    margin-bottom: 30px;
+}
+.player-serial{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player-serial .player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+/* blog styles */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 15px;
+}
+.blog-sheet img{
+    width: 177px;
+    height: 127px;
+}
+.banner-info img{
+    width: 224px;
+    height: 104px;
+}
+.courses-info{
+    display: flex;
+    justify-content: space-between;
+}
